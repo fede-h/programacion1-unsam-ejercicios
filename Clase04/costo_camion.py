@@ -1,5 +1,3 @@
-# costo_camion.py
-
 def costo_camion(nombre_archivo):
     import csv
     file = open(nombre_archivo)
