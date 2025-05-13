@@ -29,3 +29,5 @@ def informe_camion(archivo_camion, archivo_precios):
     for nombre, cajones, precio, cambio in informe:
         precio = f'${precio}'
         print(f'{nombre:>10s} {cajones:>10d} {precio:>10s} {cambio:>10.2f}')
+
+print(leer_camion('ejercicios_python/Data/camion.csv'))
